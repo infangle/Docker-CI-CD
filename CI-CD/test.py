@@ -1,6 +1,6 @@
 from helloWorld import hello
 
-def test():
+def test_hello():
     assert(hello() == "Hello World")
     assert(hello() != "Hello")
     assert(hello() != "World")
